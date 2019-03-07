@@ -1,3 +1,18 @@
+#container {
+    width: 500px;
+    background-color: black;
+    margin: 0 auto;
+}
+}
 div{
-    background-color: darkred;
+    width: 75%;
+    background-color: red;
+}
+div.second {
+    height: 24px;
+    transition: all 0.3s linear;
+}
+div.second:hover{
+    background-color: yellow;
+    height: 300px;
 }
