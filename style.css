@@ -14,7 +14,7 @@ transition: all .2s linear;
 }
 #container > div:nth-child(2){
 background-color: deeppink;
-height: 75px;
+height: 80px;
 }
 #container > div:nth-child(3){
 background-color: yellow;
