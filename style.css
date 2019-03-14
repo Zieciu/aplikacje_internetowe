@@ -1,17 +1,15 @@
 #container {
-    width: 500px;
+    width: 600px;
     background-color: black;
     margin: 0 auto;
 }
-div{
-    width: 75%;
-    background-color: red;
+#container > div{
+height: 100px;
+background-color: aquamarine;
 }
-div.second {
-    height: 24px;
-    transition: all 0.3s linear;
+#container > div:nth-child(2){
+    background-color: deeppink;
 }
-div.second:hover{
-    background-color: yellow;
-    height: 300px;
+#container > div:hover{
+    background-color: blueviolet;
 }
