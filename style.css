@@ -7,7 +7,7 @@ html,body{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
-    width: 50%;
+    width: 25%;
     height: 80%;
     background-color: black;
     margin: 20px auto 0;
@@ -25,6 +25,7 @@ html,body{
 }
 
 #container > div:hover{
+    
     background-color: white;
 }
 
